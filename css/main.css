@@ -1,8 +1,17 @@
+html {
+  background: url(../img/atardecer-py.jpg) no-repeat center 130px fixed, #ffb74d;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .logo{
   width: 150px;
   margin-top: -3rem;
   margin-bottom: 1rem;
   float: left;
+  border-radius: 5px; 
 }
 
 .barra-superior{
@@ -26,15 +35,16 @@
 }
 
 .nav-li{
-  float: right;
+  /*float: right;*/
   margin: 0rem;
+  padding: 0rem;
 }
 
 .nav-li a{
-  margin: 0.8rem !important;
+  margin: 0.5rem !important;
   float: right;
-  padding-left: 0px;
-  padding-right: 1rem;
+  padding-left: 0rem !important;
+  padding-right: 1rem !important;
 }
 
 .nav-li a i{
@@ -49,6 +59,14 @@
 
 .social-img{
   border-radius: 5px;
+}
+
+ul.collection{
+  border: none;
+}
+
+li.collection-item{
+  border: none !important;
 }
 
 .photo-galery{
