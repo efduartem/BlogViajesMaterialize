@@ -8,10 +8,10 @@ html {
 
 .logo{
   width: 150px;
-  margin-top: -3rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   float: left;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 .barra-superior{
@@ -31,7 +31,7 @@ html {
 .titulo{
   float: left;
   margin-left: 1rem;
-  margin-top: 0.5rem;
+  margin-top: 5rem;
 }
 
 .nav-li{
@@ -100,30 +100,42 @@ li.collection-item{
 @media (max-width: 600px) {
   .logo{
     margin-top: 2rem;
-    margin-left: -1rem;
+    margin-left: 1rem;
   }
 
   .titulo{
-    margin-left: -1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
   }
 
   .blog-entry img{
     width: 100%;
   }
 
-}
-/*@media (min-width:600px) and (max-width:1024px) {
-  .nav-li a i{
-    font-size: 2rem;
+  .nav-ul{
+    width: 100%;
   }
-}*/
+
+}
+
+@media (min-width:600px) and (max-width:1024px) {
+  /*.nav-li a i{
+    font-size: 2rem;
+  }*/
+  .titulo{
+    margin-left: -1rem;
+    margin-top: 1rem;
+  }
 
 /*
   .titulo{
     margin-left: -1rem;
   }*/
 
+}
 
-/*@media (min-width:900px) {
-
-}*/
+@media (min-width:900px) and (max-width: 1200px) {
+  .titulo{
+    margin-top: 1rem;
+  }
+}
