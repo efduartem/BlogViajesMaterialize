@@ -35,7 +35,6 @@ html {
 }
 
 .nav-li{
-  /*float: right;*/
   margin: 0rem;
   padding: 0rem;
 }
@@ -119,18 +118,10 @@ li.collection-item{
 }
 
 @media (min-width:600px) and (max-width:1024px) {
-  /*.nav-li a i{
-    font-size: 2rem;
-  }*/
   .titulo{
     margin-left: -1rem;
     margin-top: 1rem;
   }
-
-/*
-  .titulo{
-    margin-left: -1rem;
-  }*/
 
 }
 
